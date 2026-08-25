@@ -8,8 +8,7 @@ build: off
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install --legacy-peer-deps
-
+  - npm install
 
 test_script:
   - npm test
